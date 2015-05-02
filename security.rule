@@ -1,0 +1,20 @@
+chat {
+    permit : query, on(push);
+    rule : true;
+}
+
+chat {
+    permit : all;
+    rule : dataStore("allows").exists(account.sub);
+}
+
+
+allows {
+    permit : all;
+    rule : account.sub == "auth0|55450586ff858d44336428aa";
+}
+
+users {
+    permit : all;
+    rule : true;  
+}

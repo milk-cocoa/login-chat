@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta property="og:title" content="Milkcocoaで作ったログイン機能付きチャットの管理画面" />
+    <meta property="og:type" content="chat" />
+    <meta property="og:description" content="Milkcocoaで作ったログイン機能付きチャットの管理画面です。" />
+    <title>Milkcocoaで作ったログイン機能付きチャットの管理画面</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src='https://cdn.mlkcca.com/v2.0.0/milkcocoa.js'></script>
+    <script src="https://cdn.auth0.com/js/lock-6.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/manage.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="logo">CHAT MANAGER</h1>
+    </div>
+
+    <div class="container">
+        <div class="postarea cf">
+		    <div class="manage-detail">投稿を許可するユーザIDを選択します。</div>
+            <div class="postarea-text">
+                <select id="content" class="user-selectbox"></select>
+            </div>
+
+            <div class="postarea-share cf">
+            </div>
+
+
+            <button id="post" class="postarea-button">追加する</button>
+        </div>
+    </div>
+    <div id="messages" class="content">
+        <div id="dummy"></div>
+    </div>
+
+    <p class="footer"><strong>Powered by <a href="http://mlkcca.com/">Milkcocoa</a></strong></p>
+</body>
+</html>
