@@ -1,6 +1,7 @@
 # login-chat
 chat app with signup
 
+## 使い方
 
 * /index.html
 
@@ -19,6 +20,7 @@ chat app with signup
 デモでは、誰でも管理画面がいじれるようになっています。
 
 
+## 動かし方
 
 auth0の設定はこちら。 https://mlkcca.com/document/start-js-auth.html
 
