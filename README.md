@@ -7,10 +7,16 @@ chat app with signup
 ログインしてチャットを行う画面。ログイン後は閲覧のみが出来る。
 
 
+デモ：http://milk-cocoa.github.io/login-chat/
+
 
 * /manage.html
 
 チャットの投稿が出来るユーザを追加できる。
+
+デモ：http://milk-cocoa.github.io/login-chat/manage.html
+
+デモでは、誰でも管理画面がいじれるようになっています。
 
 
 
@@ -27,3 +33,4 @@ allows {
     rule : account.sub == "auth0|55450586ff858d44336428aa"; <- 管理ユーザのID
 }
 ```
+
